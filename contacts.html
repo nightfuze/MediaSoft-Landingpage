@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <img class="menu__close" src="./img/sprites/icon-close.svg">
+        <div class="menu__container">
+            <ul class="menu__list about-list">
+                <li class="about-list__item">
+                    <h2 class="menu__title">About US</h2>
+                    <img class="menu__arrow" src="./img/sprites/arrow-dropdown.svg">
+                </li>
+                <div class="about-list__dropdown">
+                    <li class="menu__item">
+                        <a href="#hero" class="menu__link">About</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#features" class="menu__link">What We Do</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#project" class="menu__link">Project</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#client" class="menu__link">How It Work With Us</a>
+                    </li>
+                </div>
+            </ul>
+            <ul class="menu__list socials-list">
+                <li class="socials-list__item">
+                    <h2 class="menu__title">Follow US</h2>
+                    <img class="menu__arrow" src="./img/sprites/arrow-dropdown.svg">
+                </li>
+                <div class="socials-list__dropdown">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Instagram</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Facebook</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">LinkedIn</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Youtube</a>
+                    </li>
+                </div>
+            </ul>
+            <a href="./index.html" class="menu__link">
+                <h2 class="menu__title">Home</h2>
+            </a>
+            <a href="./blogpage.html" class="menu__link">
+                <h2 class="menu__title">Blogpage</h2>
+            </a>
+            <a href="./contacts.html" class="menu__link">
+                <h2 class="menu__title">Contact US</h2>
+            </a>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__container">
+                <img class="header__logo" src="./img/sprites/icon-logo.svg">
+                <img class="header__burger" src="./img/sprites/icon-menu.svg">
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="blog">
+            <div class="blog__container">
+                <h2 class="blog__title">Contact Us</h2>
+                <p class="blog__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do&nbsp;eiusmod
+                    tempor incididunt ut&nbsp;labore et&nbsp;dolore magna aliqua.</p>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <div class="contact__container">
+                    <div class="contact__items">
+                        <img class="contact__img" src="./img/sprites/contact.svg">
+                        <div class="contact__details">
+                            <article class="contact__address">
+                                <summary class="contact__summary">ADDRESS</summary>
+                                <p class="contact__text">Id&nbsp;convallis placerat sit sed duis id&nbsp;amet volutpat
+                                    quam&nbsp;a, pharetra.</p>
+                            </article>
+                            <article class="contact__phone">
+                                <summary class="contact__summary">PHONE</summary>
+                                <div class="contact__icon-text">
+                                    <img class="contact__icon-phone" src="./img/sprites/icon-phone.svg">
+                                    <p class="contact__text">+62-812-7313-4321</p>
+                                </div>
+                                <div class="contact__icon-text">
+                                    <img class="contact__icon-phone" src="./img/sprites/icon-phone.svg">
+                                    <p class="contact__text">+62-812-7313-4321</p>
+                                </div>
+                            </article>
+                            <article class="contact__service">
+                                <summary class="contact__summary">ONLINE SERVICE</summary>
+                                <div class="contact__icon-text">
+                                    <img class="contact__icon-language" src="./img/sprites/icon_lang.svg">
+                                    <p class="contact__text">www.afrianska.com</p>
+                                </div>
+                                <div class="contact__icon-text">
+                                    <img class="contact__icon-email" src="./img/sprites/icon-email.svg">
+                                    <p class="contact__text">hello.afrian@gmail.com</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="contact__form">
+                        <summary class="contact__summary">SEND US MESSAGE</summary>
+                        <form action="#" class="form-contact">
+                            <div class="form-contact__row">
+                                <label for="full-name" class="form-contact__label">Full Name</label>
+                                <input type="text" id="full-name" class="form-contact__input" placeholder="Your Name"
+                                    required>
+                            </div>
+                            <div class="form-contact__row">
+                                <label for="email" class="form-contact__label">Email</label>
+                                <input type="email" id="email" class="form-contact__input" placeholder="Your Email"
+                                    required>
+                            </div>
+                            <div class="form-contact__row">
+                                <label for="message" class="form-contact__label">Message</label>
+                                <textarea name="message" id="message" class="form-contact__textarea"
+                                    placeholder="Your Message" required></textarea>
+                            </div>
+                            <button class="contact-form__submit">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="contact__map">
+                <div class="container">
+                    <iframe
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3A9e4a8e0173c98cd3c249c7d04e9df29af216ab2855a5774dda57d8685ebd4c03&amp;source=constructor"
+                        height="480" frameborder="0"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <section class="footer__top top-footer">
+                    <div class="top-footer__about">
+                        <h2 class="top-footer__title">Intersted to&nbsp;woek with our team?</h2>
+                        <p class="top-footer__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                            do&nbsp;eiusmod tempor incididunt ut&nbsp;labore et&nbsp;dolore magna aliqua. Ut&nbsp;enim
+                            ad&nbsp;minim veniam.</p>
+                    </div>
+                    <button class="top-footer__button">Let&rsquo;s Talk</button>
+                </section>
+                <hr class="footer__line">
+                <section class="footer__bottom bottom-footer">
+                    <div class="bottom-footer__contacts">
+                        <ul class="bottom-footer__list">
+                            <div class="bottom-footer__logo-container">
+                                <img class="bottom-footer__logo" src="./img/sprites/icon-logo-footer.svg">
+                                <h2 class="bottom-footer__title">Afrianska</h2>
+                            </div>
+                            <li class="bottom-footer__item">
+                                <p class="bottom-footer__marker">A.</p>
+                                <p class="bottom-footer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </li>
+                            <li class="bottom-footer__item">
+                                <p class="bottom-footer__marker">T.</p>
+                                <p class="bottom-footer__text">+62-812-7313-4321</p>
+                            </li>
+                            <li class="bottom-footer__item">
+                                <p class="bottom-footer__marker">E&nbsp;</p>
+                                <p class="bottom-footer__text">hello.afrian@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom-footer__links">
+                        <ul class="bottom-footer__list">
+                            <h2 class="bottom-footer__title">About US</h2>
+                            <li class="bottom-footer__item">
+                                <a href="#" class="bottom-footer__link">
+                                    <p class="bottom-footer__text">About</p>
+                                </a>
+                            </li>
+                            <li class="bottom-footer__item">
+                                <a href="#" class="bottom-footer__link">
+                                    <p class="bottom-footer__text">What We Do</p>
+                                </a>
+                            </li>
+                            <li class="bottom-footer__item">
+                                <a href="#" class="bottom-footer__link">
+                                    <p class="bottom-footer__text">Project</p>
+                                </a>
+                            </li>
+                            <li class="bottom-footer__item">
+                                <a href="#" class="bottom-footer__link">
+                                    <p class="bottom-footer__text">How It Work With Us</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="bottom-footer__list">
+                            <h2 class="bottom-footer__title">Follow US</h2>
+                            <li class="bottom-footer__item">
+                                <a href="#" class="bottom-footer__link">
+                                    <p class="bottom-footer__text">Instagram</p>
+                                </a>
+                            </li>
+                            <li class="bottom-footer__item">
+                                <a href="#" class="bottom-footer__link">
+                                    <p class="bottom-footer__text">Facebook</p>
+                                </a>
+                            </li>
+                            <li class="bottom-footer__item">
+                                <a href="#" class="bottom-footer__link">
+                                    <p class="bottom-footer__text">LinkedIn</p>
+                                </a>
+                            </li>
+                            <li class="bottom-footer__item">
+                                <a href="#" class="bottom-footer__link">
+                                    <p class="bottom-footer__text">Youtube</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <small class="footer__copyright">2019&nbsp;&copy; Afrianska. All rights reserved.</small>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
